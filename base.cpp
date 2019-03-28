@@ -3,6 +3,13 @@
 
 enum TRaza{Orco, Humano, Mago, Enano, Elfo};
 
+void cargar_datos(struct TDatos * Character);
+void mostrar_datos(struct TDatos * Character);
+
+void cargar_caracteristicas(struct TCaracteristicas * Character);
+void mostrar_caracteristicas(struct TCaracteristicas * Character);
+
+
 typedef struct TDatos {
 	TRaza raza; //nota 1
 	Char * apellidonombre; //nota 2
